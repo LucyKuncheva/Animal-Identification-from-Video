@@ -10,3 +10,5 @@ Each video clip is about 600 frames or less and contains multiple animals of the
 
 The manually annotated versions of some of the videos are avalable through the following links:
 
+WORK IN PROGRESS
+
