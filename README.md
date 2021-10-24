@@ -12,15 +12,15 @@ The manually annotated versions of some of the videos are avalable through the f
 
 * Pigeons
 
-    o https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4
+    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4
     Annotation contributed by Mr Wilf Langdon wll19pkk@bangor.ac.uk
     
-    o https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4
+    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4
     Annotation contributed by Mr Owen West wnw19njx@bangor.ac.uk 
     
 * Koi fish
 
-    o https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4
+    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4
     Annotation contributed by Mr Luke Jones lkj18dfh@bangor.ac.uk
 
 WORK IN PROGRESS
