@@ -5,7 +5,7 @@ Repository of annotated videos of multiple animals and MATLAB code for processin
 
 
 ## 1. Videos
-The original videos have been sourced from Pixabay under Pixabay License
+The original videos included in this repository have been sourced from Pixabay under Pixabay License
 * Free for commercial use
 * No attribution required
 
@@ -15,22 +15,35 @@ The manually annotated versions of some of the videos are avalable through the f
 
 * Pigeons
 
-    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4
+    - Pigeons_8234_960_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4
     Annotation contributed by Mr Wilf Langdon wll19pkk@bangor.ac.uk
     
-    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4
+    - Pigeons_29033_960_540_300f.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4
     Annotation contributed by Mr Owen West wnw19njx@bangor.ac.uk 
     
-    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4
+    - Pigeons_4927_960_540_600f.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4
     Annotation contributed by Mr Frank Krzyzowski eeub05@bangor.ac.uk 
     
 * Koi fish
 
-    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4
+    - Koi_5652_952_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4
     Annotation contributed by Dr Lucy Kuncheva mas00a@bangor.ac.uk
     
-    - https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4
+    - Fish_20771_960_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4
     Annotation contributed by Mr Luke Jones lkj18dfh@bangor.ac.uk
+
+## 2. Data
+The data is stored in Excel files with names BB_XXX.csv, where XXX stands for the name of the video. Each Excel file is organised as follows:
+
+*Name*    |     *x*  |  *y*   |   *w*  |  *h*  |  *filename*   |   *max_x* |  *max_y*
+--------|--------|------|------|-----|-------------|--------|-------
+Mahrez	 |   1059|	  85|   221|	312|	scene00001.jpg	|1280|	720
+Torres	 |   686 |	 174|   367|	342|	scene00001.jpg	|1280|	720
+Sterling |	564	 |   132|   283|	145|	scene00001.jpg	|1280|	720
+Silva    |	102	 |   557|   356|	163|	scene00001.jpg	|1280|	720
+... | ... | ... | ... | ... | ... | ... | ... |
+
+The columns are: Names of the individual animals (class labels), the x and y coordinates in pixels of the top left corner of the bounding box, the (w)idth and (h)eight of the bounding box in pixels, the filename containing the frame of the video and the horizontal and vertical image dimensions. The file format was chosen to match that outputted by the labelling software provided by https://www.makesense.ai/.
 
 WORK IN PROGRESS
 
