@@ -9,28 +9,33 @@ The original videos included in this repository have been sourced from Pixabay u
 * Free for commercial use
 * No attribution required
 
-Each video clip is about 600 frames or less and contains multiple animals of the same species (koi fish, pigeons, pigs). 
+The video data is summarised below:
 
-The manually annotated versions of some of the videos are available through the following links:
+*Video Name*    |     *# Frames*  |  *Size*   |   *# Bounding boxes*  |  *# Identities* 
+----------------|----------------|-----------|---------------------|--------------
+[Pigeons_8234_960_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_8234_960_540.mp4) |   443 | (1280, 720)|  4704|15
+[Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_29033_960_540_300f.mp4) |   300 | ( 960, 540)|  4921|30
+[Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_4927_960_540_600f.mp4) |   600 | ( 960, 540)|  3079|17
+[Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Koi_5652_952_540.mp4) |   536 | ( 952, 540)|  1635| 9
+[Fish_20771_960_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Fish_20771_960_540.mp4)|   658 | ( 960, 540)|  7586| 1
+[Pigs_49651_960_540_500f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigs_49651_960_540_500f.mp4) |   500 | ( 960, 540)|  6216|26
 
-* Pigeons
 
-    - Pigeons_8234_960_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4
-    Annotation contributed by Mr Wilf Langdon wll19pkk@bangor.ac.uk
-    
-    - Pigeons_29033_960_540_300f.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4
-    Annotation contributed by Mr Owen West wnw19njx@bangor.ac.uk 
-    
-    - Pigeons_4927_960_540_600f.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4
-    Annotation contributed by Mr Frank Krzyzowski eeub05@bangor.ac.uk 
-    
-* Koi fish
+Annotated videos are available here:
+* [Annotated_Pigeons_8234_960_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_960_540.mp4)
+    Annotation contributed by [Wilf Langdon](wll19pkk@bangor.ac.uk)   
+* [Annotated_Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4)
+    Annotation contributed by [Owen West](wnw19njx@bangor.ac.uk)  
+ * [Annotated_Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4)
+    Annotation contributed by [Frank Krzyzowski](eeub05@bangor.ac.uk) 
+* [Annotated_Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4)
+    Annotation contributed by [Lucy Kuncheva](mas00a@bangor.ac.uk)
+* [Annotated_NO_LABELS_Fish_20771_960_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4)
+    Annotation contributed by [Luke Jones](lkj18dfh@bangor.ac.uk)
+* [Annotated_Pigs_49651_960_540_500f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigs_49651_960_540_500f.mp4)
+    Annotation contributed by [Lucy Kuncheva](mas00a@bangor.ac.uk)
 
-    - Koi_5652_952_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4
-    Annotation contributed by Dr Lucy Kuncheva mas00a@bangor.ac.uk
-    
-    - Fish_20771_960_540.mp4 https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_NO_LABELS_Fish_20771_960_540.mp4
-    Annotation contributed by Mr Luke Jones lkj18dfh@bangor.ac.uk
+
 
 ## 2. Data
 The data is stored in Excel files with names BB_XXX.csv, where XXX stands for the name of the video. Each Excel file is organised as follows:
