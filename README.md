@@ -13,7 +13,7 @@ The video data is summarised below:
 
 *Video Name*    |     *# Frames*  |  *Size*   |   *# Bounding boxes*  |  *# Identities* 
 ----------------|----------------|-----------|---------------------|--------------
-[Pigeons_8234_1280_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_8234_1280_720.mp4) |   443 | (1280, 720)|  4700|17
+[Pigeons_8234_1280_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_8234_1280_720.mp4) |   443 | (1280, 720)|  4700|16
 [Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_29033_960_540_300f.mp4) |   300 | ( 960, 540)|  4892|28
 [Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_4927_960_540_600f.mp4) |   600 | ( 960, 540)|  3079|17
 [Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Koi_5652_952_540.mp4) |   536 | ( 952, 540)|  1635| 9
