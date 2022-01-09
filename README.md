@@ -11,26 +11,26 @@ The original videos included in this repository have been sourced from Pixabay u
 
 The video data is summarised below:
 
-*Video Name*    |     *# Frames*  |  *Size*   |   *# Bounding boxes*  |  *# Identities* 
-----------------|----------------|-----------|---------------------|--------------
-[Pigeons_8234_1280_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_8234_1280_720.mp4) |   443 | (1280, 720)|  4700|16
-[Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_29033_960_540_300f.mp4) |   300 | ( 960, 540)|  4892|28
-[Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_4927_960_540_600f.mp4) |   600 | ( 960, 540)|  3079|17
-[Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Koi_5652_952_540.mp4) |   536 | ( 952, 540)|  1635| 9
-[Pigs_49651_960_540_500f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigs_49651_960_540_500f.mp4) |   500 | ( 960, 540)|  6184|26
+*Short Name* |*Video Name*    |     *# Frames*  |  *Size*   |   *# Bounding boxes*  |  *# Identities* 
+----------|------|----------------|-----------|---------------------|--------------
+Pigs|[Pigs_49651_960_540_500f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigs_49651_960_540_500f.mp4) |   500 | ( 960, 540)|  6184|26
+Koi fish|[Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Koi_5652_952_540.mp4) |   536 | ( 952, 540)|  1635| 9
+Pigeons (curb)|[Pigeons_8234_1280_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_8234_1280_720.mp4) |   443 | (1280, 720)|  4700|16
+Pigeons (ground)|[Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_4927_960_540_600f.mp4) |   600 | ( 960, 540)|  3079|17
+Pigeons (square)|[Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Pigeons_29033_960_540_300f.mp4) |   300 | ( 960, 540)|  4892|28
 
 
 Annotated videos are available here:
-* [Annotated_Pigeons_8234_1270_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_1280_720.mp4)
-    Annotation contributed by [Wilf Langdon](wll19pkk@bangor.ac.uk)   
-* [Annotated_Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4)
-    Annotation contributed by [Owen West](wnw19njx@bangor.ac.uk)  
- * [Annotated_Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4)
-    Annotation contributed by [Frank Krzyzowski](eeub05@bangor.ac.uk) 
-* [Annotated_Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4)
-    Annotation contributed by [Lucy Kuncheva](mas00a@bangor.ac.uk)
 * [Annotated_Pigs_49651_960_540_500f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigs_49651_960_540_500f.mp4)
     Annotation contributed by [Lucy Kuncheva](mas00a@bangor.ac.uk)
+* [Annotated_Koi_5652_952_540.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Koi_5652_952_540.mp4)
+    Annotation contributed by [Lucy Kuncheva](mas00a@bangor.ac.uk)
+* [Annotated_Pigeons_8234_1270_720.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_8234_1280_720.mp4)
+    Annotation contributed by [Wilf Langdon](wll19pkk@bangor.ac.uk)   
+ * [Annotated_Pigeons_4927_960_540_600f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_4927_960_540_600f.mp4)
+    Annotation contributed by [Frank Krzyzowski](eeub05@bangor.ac.uk) 
+* [Annotated_Pigeons_29033_960_540_300f.mp4](https://lucykuncheva.co.uk/other_research/restricted_set_classification_images/Annotated_Pigeons_29033_960_540_300f.mp4)
+    Annotation contributed by [Owen West](wnw19njx@bangor.ac.uk)  
 
 
 
