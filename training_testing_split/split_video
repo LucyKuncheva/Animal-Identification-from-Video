@@ -1,1 +1,3 @@
-
+The videos are split into training and testing halves based on the number of frames. 
+The identities which appear only in the second part of the video have been removed 
+so that classification accuracy can be calculated properly.
