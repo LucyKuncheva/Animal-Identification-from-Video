@@ -4,9 +4,10 @@ from skimage.color import rgb2hsv
 #import matplotlib.pyplot as plt
 #import pandas as pd
 #from skimage.color import rgb2gray
-#from skimage.transform import resize
+from skimage.transform import resize
 #from skimage.feature import hog
 #from skimage.feature import local_binary_pattern
+import tensorflow as tf
 #import os
 
 #----------------------------------------------------------------
@@ -112,3 +113,24 @@ def colour_features_histogram(im,bins):
     hist, bin_edges = np.histogram(h,bins = bins, range = [0,1])
     hist = hist/np.sum(hist)
     return hist, bin_edges
+
+def extractMobilNetfeatures(imds, labels, r=56):
+
+    ll = list(np.sort(np.unique(labels)))
+
+    X_im = []
+    X = []
+    y_num = []
+    for i in range(len(imds)):
+        y_num.append(ll.index(labels[i]))
+        X.append(resize(imds[i], (r, r)))
+        X_im.append(imds[i])
+    X = np.array(X)/255  
+
+    base_model = tf.keras.applications.MobileNetV2(input_shape = \
+                (r, r, 3), include_top = False, weights = "imagenet")
+
+    xx = base_model(X,training = False)
+    xx_shaped = tf.keras.layers.GlobalAveragePooling2D()(xx)
+
+    return np.hstack((xx_shaped, np.array(y_num).reshape(-1,1)))
